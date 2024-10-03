@@ -40,7 +40,7 @@ class _SplashViewState extends State<SplashView> {
             height: 250,
             width: 250,
           ),
-          const Spacer(flex: 2),
+          const Spacer(flex: 1),
           const Text(
             'The best chat app of the century',
             style: TextStyle(
