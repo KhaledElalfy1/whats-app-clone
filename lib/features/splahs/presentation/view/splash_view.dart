@@ -37,8 +37,15 @@ class _SplashViewState extends State<SplashView> {
           const Spacer(flex: 1),
           Image.asset(
             'assets/images/app_icon.png',
-            height: 250,
-            width: 250,
+            height: 225,
+            width: 225,
+          ),
+          const Text(
+            'WhatsApp',
+            style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+            ),
           ),
           const Spacer(flex: 1),
           const Text(

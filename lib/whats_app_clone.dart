@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:whats_app_clone/features/splahs/presentation/view/splash_view.dart';
 
 class WhatsAppCloneApp extends StatelessWidget {
@@ -6,9 +7,12 @@ class WhatsAppCloneApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:SplashView() ,
+      theme: ThemeData(
+        textTheme: GoogleFonts.interTextTheme(),
+      ),
+      home:const SplashView() ,
     );
   }
 } 
